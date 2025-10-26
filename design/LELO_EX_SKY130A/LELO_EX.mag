@@ -1,0 +1,60 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1761474369
+<< locali >>
+rect 184 1960 635 2040
+rect -96 -200 96 164
+rect 1056 -200 1248 158
+rect -200 -210 1400 -200
+rect -200 -390 294 -210
+rect 474 -390 1400 -210
+rect -200 -400 1400 -390
+<< viali >>
+rect 294 -390 474 -210
+<< metal1 >>
+rect 672 3742 1141 3934
+rect 160 545 224 3383
+rect 160 360 224 440
+rect 288 -204 480 3504
+rect 949 3078 1141 3742
+rect 672 2886 1141 3078
+rect 949 1447 1141 2886
+rect 672 1255 1141 1447
+rect 949 551 1141 1255
+rect 721 359 1141 551
+rect 672 40 864 120
+rect 282 -210 486 -204
+rect 282 -390 294 -210
+rect 474 -390 486 -210
+rect 282 -396 486 -390
+use JNWATR_NCH_4C5F0  xo0<0> ../JNW_ATR_SKY130A
+timestamp 1756644569
+transform 1 0 0 0 1 0
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  xo0<1>
+timestamp 1756644569
+transform 1 0 0 0 1 800
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  xo1
+timestamp 1756644569
+transform 1 0 0 0 1 1600
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  xo2<0>
+timestamp 1756644569
+transform 1 0 0 0 1 2400
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  xo2<1>
+timestamp 1756644569
+transform 1 0 0 0 1 3200
+box -184 -128 1336 928
+<< labels >>
+flabel metal1 s 160 360 224 440 0 FreeSans 400 0 0 0 IBPS_5U
+port 1 nsew signal bidirectional
+flabel metal1 s 672 40 864 120 0 FreeSans 400 0 0 0 IBNS_20U
+port 3 nsew signal bidirectional
+flabel locali -200 -400 294 -200 0 FreeSans 800 0 0 0 VSS
+port 2 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 1152 4000
+<< end >>
