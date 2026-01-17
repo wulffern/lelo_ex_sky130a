@@ -8,7 +8,7 @@ github: wulffern
 tagline: The answer is 42
 # Your email, if you so wish
 email: carsten@wulff.no
-# Your github site, usually <github username>.github.io
+
 url: wulffern.github.io
 doc:
   libraries:
